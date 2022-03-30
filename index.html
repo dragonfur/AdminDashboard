@@ -10,37 +10,79 @@
 <body>
     <div class="left-container">
         <div class="sidebar">
-            <div id="logo"></div>
-            <div id="logo-title">Dashboard</div>
-        </div>
-        <div class="nav">
-            <div id="home">Home</div>
-            <div id="profile">Profile</div>
-            <div id="messages">Messages</div>
-            <div id="history">History</div>
-            <div id="tasks">Tasks</div>
-            <div id="communities">Communities</div>
-        </div>
-        <div class="settings-menu">
-            <div id="settings">Settings</div>
-            <div id="support">Support</div>
-            <div id="privacy">Privacy</div>
+            <div class="logos">
+                <div id="logo"></div>
+                <div id="logo-title">Dashboard</div>
+            </div>
+            <div class="nav">
+                <ul class="navbar">
+                    <li class="clickables">
+                        <a href="" id="home">Home</a>
+                    </li>
+                    <li class="clickables">
+                        <a href="" id="profile">Profile</a>
+                    </li>
+                    <li class="clickables">
+                        <a href="" id="messages">Messages</a>
+                    </li>
+                    <li class="clickables">
+                        <a href="" id="history">History</a>
+                    </li>
+                    <li class="clickables">
+                        <a href="" id="tasks">Tasks</a>
+                    </li>
+                    <li class="clickables" id="bottompart">
+                        <a href="" id="communities">Communities</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="settings-menu">
+                <ul class="navbar">
+                    <li class="clickables">
+                        <a href="" id="settings">Settings</a>
+                    </li>
+                    <li class="clickables">
+                        <a href="" id="support">Support</a>
+                    </li>
+                    <li class="clickables"
+                    id="bottompart">
+                        <a href="" id="privacy">Privacy</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="right-container">
         <div class="header">
-            <div class="top-search-bar">
-                <div id="search"></div>
+            <div class="search">
+                <label for="search">Search</label>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="profile-area">
                 <div id="notifications"></div>
                 <div id="profile-small"></div>
-                <div id="profile-name"></div>
+                <div id="profile-name">John Doe</div>
             </div>
-            <div class="lower-buttons">
+            <div class="profilegreetings">
                 <div id="profile-big"></div>
                 <div class="who-is-this">
                     <div id="greetings">Hi there,</div>
-                    <div id="profile-person"></div>
+                    <div id="profile-person">John Doe (@johndoe)</div>
                 </div>
+            </div>
+            <div class="buttons">
+                <ul class="buttons-todo">
+                    <li class="activebuttons">
+                        <button id="new">New</button>
+                    </li>
+                    <li class="activebuttons">
+                        <button id="upload">Upload</button>
+                    </li>
+                    <li class="activebuttons">
+                        <button id="share">Share</button>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
         <div class="main-content">
