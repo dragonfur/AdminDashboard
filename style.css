@@ -304,7 +304,8 @@ button:hover {
 
 #card {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    row-gap: 1em;
     border-left: 10px solid #1B1A17;
     border-radius: 10px;
 }
